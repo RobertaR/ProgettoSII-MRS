@@ -2,12 +2,11 @@
 
 #### ROBERTA ROMANO
 
-"""
-Scripts to help load the movielens dataset into Python classes
-"""
+#- load the movielens dataset into Python classes- #
+
 import re
 
-# Read data/README to get more info on these data structures
+# Read the file README to get more info on these data structures
 class User:
     def __init__(self, id, age, sex, occupation, zip):
         self.id = int(id)
