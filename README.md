@@ -6,7 +6,7 @@ MovieLens data sets were collected by the GroupLens Research Project
 at the University of Minnesota.
  
 This data set consists of:
-	* 100,000 ratings (1-5) from 843 users on 1682 movies. 
+	* 100,000 ratings (1-5) from 943 users on 1682 movies. 
 	* Each user has rated at least 20 movies. 
         * Simple demographic info for the users (age, gender, occupation, zip)
 
@@ -119,10 +119,12 @@ u.base    -- The data sets u.base, u1.test and u2.test
 u.test       split the u data into a training set and a test set with
               exactly 10 ratings per user in the test set.  
 
-us.users    -- A list of 50 users who contributed to voted 10 movies and giving us a              feedback for the GUI
+us.users    -- A list of 50 users who contributed to voted 10 movies and giving us a feedback for the GUI
 
 statistics.txt   -- Analyzes the different categories of users who voted 
 
 first_check_movies   -- List of movies with only one genre
 
 movies_with_more_genres   -- List of movies with more than one genre
+
+(in these 2 files : first_check_movies, movies_with_more_genres, I deleted the movies with no link or an invalid link to imdb)
