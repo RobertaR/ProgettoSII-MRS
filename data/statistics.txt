@@ -171,14 +171,14 @@ Sorted by Occupation: other
 Giuseppe|59|M|other|Secondary|3
 ****************************************
 
-Sorted by Occupation: None
+Sorted by Education: None
 
 Mario|62|M|retired|None|3
 Paola|60|F|housewife|None|4
 Giovanni|41|M|technician|None|4
 
 ----------------------------------------
-Sorted by Occupation: Secondary
+Sorted by Education: Secondary
 
 Flora|22|F|student|Secondary|3
 Giacomo|20|M|student|Secondary|3
@@ -204,7 +204,7 @@ Carla|23|F|student|Secondary|3
 Loris|31|M|technician|Secondary|5
 ****************************************
 
-Sorted by Occupation: Degree
+Sorted by Education: Degree
 
 Rosanna|26|F|student|Degree|5
 Roberta|26|F|engineer|Degree|4
@@ -231,7 +231,7 @@ Thomas|39|M|engineer|Degree|2
 Max|45|M|administrator|Degree|4
 ****************************************
 
-Sorted by Occupation: PhD
+Sorted by Education: PhD
 
 Antonio|27|M|engineer|PhD|5
 Ilenia|26|F|engineer|PhD|4
@@ -380,3 +380,124 @@ Dorina|34|F|programmer|Degree|5
 Paolo|27|M|student|Degree|5
 Loris|31|M|technician|Secondary|5
 ****************************************
+
+----------------------------------------
+Sorted by Sex: F
+tot. persone: 22
+voto medio: 3.77272727273
+****************************************
+Sorted by Sex: M
+tot. persone: 28
+voto medio: 3.64285714286
+****************************************
+----------------------------------------
+Sorted by Occupation: student
+tot. persone: 13
+voto medio: 3.69230769231
+****************************************
+Sorted by Occupation: administrator
+tot. persone: 1
+voto medio: 4.0
+****************************************
+Sorted by Occupation: artist
+tot. persone: 3
+voto medio: 3.66666666667
+****************************************
+Sorted by Occupation: doctor
+tot. persone: 1
+voto medio: 4.0
+****************************************
+Sorted by Occupation: educator
+tot. persone: 4
+voto medio: 3.25
+****************************************
+Sorted by Occupation: engineer
+tot. persone: 14
+voto medio: 3.64285714286
+****************************************
+Sorted by Occupation: entertainment
+tot. persone: 1
+voto medio: 4.0
+****************************************
+Sorted by Occupation: healthcare
+tot. persone: 1
+voto medio: 4.0
+****************************************
+Sorted by Occupation: housewife
+tot. persone: 3
+voto medio: 4.0
+****************************************
+Sorted by Occupation: lawyer
+tot. persone: 1
+voto medio: 3.0
+****************************************
+Sorted by Occupation: marketing
+tot. persone: 1
+voto medio: 4.0
+****************************************
+Sorted by Occupation: programmer
+tot. persone: 2
+voto medio: 4.5
+****************************************
+Sorted by Occupation: retired
+tot. persone: 1
+voto medio: 3.0
+****************************************
+Sorted by Occupation: salesman
+tot. persone: 1
+voto medio: 3.0
+****************************************
+Sorted by Occupation: technician
+tot. persone: 2
+voto medio: 4.5
+****************************************
+Sorted by Occupation: writer
+tot. persone: 0
+voto medio: 0
+****************************************
+Sorted by Occupation: other
+tot. persone: 1
+voto medio: 3.0
+****************************************
+----------------------------------------
+Sorted by Education: None
+tot. persone: 3
+voto medio: 3.66666666667
+****************************************
+Sorted by Education: Secondary
+tot. persone: 22
+voto medio: 3.54545454545
+****************************************
+Sorted by Education: Degree
+tot. persone: 23
+voto medio: 3.78260869565
+****************************************
+Sorted by Education: PhD
+tot. persone: 2
+voto medio: 4.5
+****************************************
+----------------------------------------
+Sorted by Age Ranges: 10-20
+tot. persone: 5
+voto medio: 3.8
+****************************************
+Sorted by Age Ranges: 21-30
+tot. persone: 19
+voto medio: 3.78947368421
+****************************************
+Sorted by Age Ranges: 31-40
+tot. persone: 17
+voto medio: 3.64705882353
+****************************************
+Sorted by Age Ranges: 41-50
+tot. persone: 3
+voto medio: 3.66666666667
+****************************************
+Sorted by Age Ranges: 51-60
+tot. persone: 4
+voto medio: 3.75
+****************************************
+Sorted by Age Ranges: 61-70
+tot. persone: 2
+voto medio: 3.0
+----------------------------------------
