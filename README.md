@@ -1,12 +1,13 @@
 # ProgettoSII-MRS
-SUMMARY & USAGE LICENSE
+
+SUMMARY
 =============================================
 
 MovieLens data sets were collected by the GroupLens Research Project
 at the University of Minnesota.
  
 This data set consists of:
-	* 100,000 ratings (1-5) from 943 users on 1682 movies. 
+	* 100,000 ratings (1-5) from 843 users on 1682 movies. 
 	* Each user has rated at least 20 movies. 
         * Simple demographic info for the users (age, gender, occupation, zip)
 
@@ -17,36 +18,6 @@ who had less than 20 ratings or did not have complete demographic
 information were removed from this data set. Detailed descriptions of
 the data file can be found at the end of this file.
 
-Neither the University of Minnesota nor any of the researchers
-involved can guarantee the correctness of the data, its suitability
-for any particular purpose, or the validity of results based on the
-use of the data set.  The data set may be used for any research
-purposes under the following conditions:
-
-     * The user may not state or imply any endorsement from the
-       University of Minnesota or the GroupLens Research Group.
-
-     * The user must acknowledge the use of the data set in
-       publications resulting from the use of the data set, and must
-       send us an electronic or paper copy of those publications.
-
-     * The user may not redistribute the data without separate
-       permission.
-
-     * The user may not use this information for any commercial or
-       revenue-bearing purposes without first obtaining permission
-       from a faculty member of the GroupLens Research Project at the
-       University of Minnesota.
-
-
-PUBLISHED WORK THAT HAS USED THIS DATASET
-==============================================
-
-Herlocker, J., Konstan, J., Borchers, A., Riedl, J.. An Algorithmic
-Framework for Performing Collaborative Filtering. Proceedings of the
-1999 Conference on Research and Development in Information
-Retrieval. Aug. 1999.
-
 FURTHER INFORMATION ABOUT THE GROUPLENS RESEARCH PROJECT
 ==============================================
 
@@ -54,16 +25,7 @@ The GroupLens Research Project is a research group in the Department
 of Computer Science and Engineering at the University of Minnesota.
 Members of the GroupLens Research Project are involved in many
 research projects related to the fields of information filtering,
-collaborative filtering, and recommender systems. The project is lead
-by professors John Riedl and Joseph Konstan. The project began to
-explore automated collaborative filtering in 1992, but is most well
-known for its world wide trial of an automated collaborative filtering
-system for Usenet news in 1996.  The technology developed in the
-Usenet trial formed the base for the formation of Net Perceptions,
-Inc., which was founded by members of GroupLens Research. Since then
-the project has expanded its scope to research overall information
-filtering solutions, integrating in content-based methods as well as
-improving current collaborative filtering technology.
+collaborative filtering, and recommender systems. 
 
 Further information on the GroupLens Research project, including
 research publications, can be found at the following web site:
@@ -119,12 +81,10 @@ u.base    -- The data sets u.base, u1.test and u2.test
 u.test       split the u data into a training set and a test set with
               exactly 10 ratings per user in the test set.  
 
-us.users    -- A list of 50 users who contributed to voted 10 movies and giving us a feedback for the GUI
+us.users    -- A list of 50 users who contributed to voted 10 movies and giving us a              feedback for the GUI
 
 statistics.txt   -- Analyzes the different categories of users who voted 
 
 first_check_movies   -- List of movies with only one genre
 
 movies_with_more_genres   -- List of movies with more than one genre
-
-(in these 2 files : first_check_movies, movies_with_more_genres, I deleted the movies with no link or an invalid link to imdb)
